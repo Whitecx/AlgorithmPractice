@@ -1,0 +1,14 @@
+Reading: Introduciton to Algorithms 3rd Edition by Thomas H Cormen
+
+Describe:
+Insertion sort works conceptually by startin gwith an empty array to hold unsorted elements, and another array to hold sorted elements.
+
+First add the first item from the inspected array ot the sorted array. Going sequentially, each time you move an element from the unsorted array to the sorted array, you compare the new addition to each element until you find its place.
+
+With numbers, this looks like comparing until you find that the number you're attempting to sort is smaller than the one you're comparing it to.
+
+Big(O):
+On each pass an element is added to the sorted array; therefore, on each pass the number of comparisons you have to do increases by 1. So if you have N elements, you'll have to do a total on N-1 + N-1... N-N comparisons. You can calculate this as comparisons = (N * (N+1))/2 or (N^2 + N)/2
+
+This makes the Big O notation O(N^2)
+
