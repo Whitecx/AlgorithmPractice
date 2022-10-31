@@ -1,0 +1,9 @@
+Problem 1-1. [15 points] Asymptotic Practice
+For  each group of functions, sort the functions in increasing order of asymptotic (big-O) complexity:
+
+(a) [5 points] Group 1:
+f₁(n) = n^0.999999log(n)
+f₂(n) = 10000000n
+f₃(n) = 1.000001ⁿ
+f₄(n) = n²
+
